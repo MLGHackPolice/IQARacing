@@ -18,16 +18,16 @@ class Game {
   getrandomQuestion(){
 
     let rngquestions = [
-      "What is 5-2?:3",
-      "What is 5-5?:0",
-      "What is 5+5?:10",
-      "What is 2-1?:1",
-      "What is 5+10?:15",
-      "What is 5+2?:7",
-      "What is 2+4?:6",
-      "What is 5-1?:4",
-      "What is 9+1?:10",
-      "What is 9-5?:4",
+      "Name this ion:HCO3-",
+      "The Chemical Compound for Rubidium Phospate is:Rb3PO4",
+      "What is Nh4Cl?:ammonium chloride",
+      "Name the following ionic compound Cr(SO4)3:chromium(VI) sulfate",
+      "Are two atoms of the same element identical?(yes/no):no",
+      "Can water stay in a liquid state below 0 degrees Celsius?(yes/no):yes",
+      "What is the name of AgNO3?:silver(i) nitrate",
+      "What is the formula for Calcium Chlorate?:Ca(ClO3)2",
+      "What is the correct name of Fr2CO3?:francium carbonate",
+      "What is the ion p3-?:phosphide",
     ]
 
     let random = Math.floor(Math.random() * rngquestions.length);
